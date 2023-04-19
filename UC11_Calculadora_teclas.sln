@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UC11_Calculadora_teclas", "UC11_Calculadora_teclas\UC11_Calculadora_teclas.csproj", "{D8C68254-A876-45F5-B8B1-782C668D517D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8C68254-A876-45F5-B8B1-782C668D517D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C68254-A876-45F5-B8B1-782C668D517D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C68254-A876-45F5-B8B1-782C668D517D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C68254-A876-45F5-B8B1-782C668D517D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D36EEA69-BFED-4058-9746-B8158FB73323}
+	EndGlobalSection
+EndGlobal
