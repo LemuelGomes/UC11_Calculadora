@@ -213,6 +213,8 @@
             // 
             this.textBoxDISPLAYSUP.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.textBoxDISPLAYSUP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxDISPLAYSUP.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxDISPLAYSUP.ForeColor = System.Drawing.Color.SpringGreen;
             this.textBoxDISPLAYSUP.Location = new System.Drawing.Point(12, 12);
             this.textBoxDISPLAYSUP.Multiline = true;
             this.textBoxDISPLAYSUP.Name = "textBoxDISPLAYSUP";
