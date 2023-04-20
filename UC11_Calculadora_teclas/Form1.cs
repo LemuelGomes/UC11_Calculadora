@@ -253,16 +253,6 @@ namespace UC11_Calculadora_teclas
             {
                 textBoxRESULTADO.Text = textBoxRESULTADO.Text += ",";
             }
-        }
-
-        private void textBoxDISPLAYSUP_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBoxRESULTADO_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        }       
     }
 }

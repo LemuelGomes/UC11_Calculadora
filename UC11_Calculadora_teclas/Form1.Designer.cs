@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -195,7 +196,6 @@
             this.textBoxRESULTADO.Name = "textBoxRESULTADO";
             this.textBoxRESULTADO.Size = new System.Drawing.Size(293, 48);
             this.textBoxRESULTADO.TabIndex = 12;
-            this.textBoxRESULTADO.TextChanged += new System.EventHandler(this.textBoxRESULTADO_TextChanged);
             // 
             // buttonLIMPAR
             // 
@@ -220,7 +220,6 @@
             this.textBoxDISPLAYSUP.Name = "textBoxDISPLAYSUP";
             this.textBoxDISPLAYSUP.Size = new System.Drawing.Size(293, 38);
             this.textBoxDISPLAYSUP.TabIndex = 14;
-            this.textBoxDISPLAYSUP.TextChanged += new System.EventHandler(this.textBoxDISPLAYSUP_TextChanged);
             // 
             // buttonSUBTRAI
             // 
@@ -294,6 +293,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
