@@ -203,6 +203,7 @@ namespace UC11_Calculadora_teclas
         {
             operador = "+";
             operacao = true;
+            textBoxDISPLAYSUP.Text = textBoxRESULTADO.Text + " +";
             n1 = Convert.ToDouble(textBoxRESULTADO.Text);
             textBoxRESULTADO.Clear();
         }
@@ -210,12 +211,14 @@ namespace UC11_Calculadora_teclas
         private void buttonLIMPAR_Click(object sender, EventArgs e)
         {
             textBoxRESULTADO.Clear();
+            textBoxDISPLAYSUP.Clear();
         }
 
         private void buttonSUBTRAI_Click(object sender, EventArgs e)
         {
             operador = "-";
             operacao = true;
+            textBoxDISPLAYSUP.Text = textBoxRESULTADO.Text + " -";
             n1 = Convert.ToDouble(textBoxRESULTADO.Text);
             textBoxRESULTADO.Clear();
         }
@@ -224,6 +227,7 @@ namespace UC11_Calculadora_teclas
         {
             operador = "*";
             operacao = true;
+            textBoxDISPLAYSUP.Text = textBoxRESULTADO.Text + " *";
             n1 = Convert.ToDouble(textBoxRESULTADO.Text);
             textBoxRESULTADO.Clear();
         }
@@ -232,6 +236,7 @@ namespace UC11_Calculadora_teclas
         {
             operador = "/";
             operacao = true;
+            textBoxDISPLAYSUP.Text = textBoxRESULTADO.Text + " /";
             n1 = Convert.ToDouble(textBoxRESULTADO.Text);
             textBoxRESULTADO.Clear();
         }
@@ -252,7 +257,7 @@ namespace UC11_Calculadora_teclas
 
         private void textBoxDISPLAYSUP_TextChanged(object sender, EventArgs e)
         {
-            textBoxDISPLAYSUP.Text = n1.ToString();
+
         }
 
         private void textBoxRESULTADO_TextChanged(object sender, EventArgs e)
